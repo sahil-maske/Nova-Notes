@@ -1,66 +1,78 @@
-# 🚀 Nova Notes
+<h1 align="center">📝 NexaNotes</h1>
 
-Nova Notes is a modern Android note-taking app built with Kotlin.  
-It provides a clean UI, fast performance, and an organized way to create, manage, and store notes efficiently.
+<p align="center">
+Modern Android note-taking app built with Kotlin and Android Studio
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-100%25-purple?style=for-the-badge&logo=kotlin">
+  <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Active-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
+</p>
 
 ---
 
-## ✨ Features
+# ✨ Overview
+
+NexaNotes is a clean and modern Android note-taking application designed to help users quickly create, organize, edit, and manage notes efficiently.
+
+The app focuses on simplicity, smooth user experience, and fast performance while following modern Android development practices using Kotlin.
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home Screen
+
+<p align="center">
+  <img src="screenshots/home.jpg" width="300">
+</p>
+
+## ✏️ Edit Note Screen
+
+<p align="center">
+  <img src="screenshots/edit_note.jpg" width="300">
+</p>
+
+---
+
+# 🚀 Features
 
 - 📝 Create, edit, and delete notes
-- 🔍 Search notes instantly
+- 🔍 Instant note searching
 - 📂 Organized note management
-- 🌙 Clean and modern UI
 - ⚡ Fast and lightweight performance
-- 📱 Android native app built with Kotlin
+- 📱 Native Android application
+- 🎨 Clean and minimal UI
+- 📅 Timestamp support
+- 📄 Large note support
+- 📌 Structured note formatting
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - Kotlin
 - Android Studio
 - Gradle
 - XML UI
+- Material Design Components
 
 ---
 
-## 📸 Screenshots
+# 🏗️ Architecture
 
-> Add screenshots here later
+NexaNotes follows a clean and scalable Android app structure.
 
-Example:
+### Layers Used
 
-| Home Screen | Note Editor |
-|-------------|-------------|
-| ![Home](screenshots/Screenshot_20260528_125124.png) | ![Editor](screenshots/Screenshot_20260528_125607.png) |
+- UI Layer
+- Data Layer
+- Model Layer
+- Utility Layer
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Android Studio installed
-- Android SDK configured
-
-### Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/sahil-maske/Nova-Notes.git
-```
-
-2. Open project in Android Studio
-
-3. Sync Gradle
-
-4. Run the app on emulator or device
-
----
-
-## 📂 Project Structure
+### Project Structure
 
 ```bash
 app/
@@ -72,37 +84,110 @@ app/
 
 ---
 
-## 🎯 Future Improvements
+# 💡 Why I Built This
 
-- Cloud sync
-- Dark mode
-- Note categories
-- Rich text editor
-- Firebase authentication
-- Backup & restore
+I built NexaNotes to improve my Android development skills and gain hands-on experience building real-world mobile applications using Kotlin.
+
+The goal was to create a simple, fast, and organized note-taking app while learning Android app architecture, UI design, and data handling.
 
 ---
 
-## 🤝 Contributing
+# 🎥 App Preview
+
+The app allows users to:
+
+- Store important information
+- Create structured notes
+- Manage personal and professional records
+- Organize long-form content efficiently
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+- Android Studio installed
+- Android SDK configured
+- Android device or emulator
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sahil-maske/Nova-Notes.git
+```
+
+### 2. Open the project
+
+Open the project in Android Studio.
+
+### 3. Sync Gradle
+
+Allow Gradle dependencies to sync completely.
+
+### 4. Run the app
+
+Run the application on an emulator or physical Android device.
+
+---
+
+# 🚧 Future Improvements
+
+Planned features for future updates:
+
+- 🌙 Dark mode
+- ☁️ Cloud sync
+- 🔐 App lock / PIN protection
+- 🏷️ Tags & categories
+- 🎤 Voice notes
+- 📤 Export notes
+- 🔔 Reminder support
+- 🔍 Advanced search filtering
+- 🧠 AI-powered summaries
+
+---
+
+# 📊 Current Status
+
+🟢 Project is currently under active development.
+
+The core note management system is functional, and additional features are continuously being improved.
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome.
 
-1. Fork the project
+### Steps to contribute:
+
+1. Fork the repository
 2. Create your feature branch
 3. Commit your changes
-4. Push to the branch
+4. Push your branch
 5. Open a Pull Request
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-Sahil Maske
+### Sahil Maske
 
-GitHub: https://github.com/sahil-maske
+GitHub:
+https://github.com/sahil-maske
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub.
