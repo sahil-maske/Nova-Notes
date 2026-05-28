@@ -22,15 +22,14 @@ The app focuses on simplicity, smooth user experience, and fast performance whil
 # 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2f2489b2-8e9a-42ad-82fb-96eec1e53f83" width="300">
-  &nbsp;&nbsp;&nbsp;
-  <img src="EDIT_NOTE_URL_YAHAN_PASTE_KARO" width="300">
+  <img src="https://raw.githubusercontent.com/sahil-maske/Nova-Notes/main/Screenshot_20260528_125124.jpg" width="300">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/sahil-maske/Nova-Notes/main/Screenshot_20260528_125607.jpg" width="300">
 </p>
 <p align="center">
   <b>🏠 Home Screen</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <b>✏️ Edit Note Screen</b>
-https://github.com/user-attachments/assets/af98437a-ef1b-4a29-8032-9dd002b056d0
 </p>
 
 ---
@@ -72,13 +71,13 @@ NexaNotes follows a clean and scalable Android app structure.
 
 ### Project Structure
 
-````bash
+```bash
 app/
  ├── ui/
  ├── data/
  ├── model/
  ├── utils/
-\```
+```
 
 ---
 
@@ -117,7 +116,7 @@ The app allows users to:
 
 ```bash
 git clone https://github.com/sahil-maske/Nova-Notes.git
-\```
+```
 
 ### 2. Open the project
 
@@ -134,8 +133,6 @@ Run the application on an emulator or physical Android device.
 ---
 
 # 🚧 Future Improvements
-
-Planned features for future updates:
 
 - 🌙 Dark mode
 - ☁️ Cloud sync
@@ -188,8 +185,3 @@ GitHub: https://github.com/sahil-maske
 # ⭐ Support
 
 If you like this project, consider giving it a star ⭐ on GitHub.
-```
-
----
-
-Edit Note ka URL mil jaye toh `EDIT_NOTE_URL_YAHAN_PASTE_KARO` ki jagah replace kar do — done! 🔥
