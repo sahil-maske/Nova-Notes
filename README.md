@@ -1,9 +1,7 @@
 <h1 align="center">📝 NexaNotes</h1>
-
 <p align="center">
 Modern Android note-taking app built with Kotlin and Android Studio
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-100%25-purple?style=for-the-badge&logo=kotlin">
   <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge">
@@ -23,18 +21,15 @@ The app focuses on simplicity, smooth user experience, and fast performance whil
 
 # 📸 Screenshots
 
-## 🏠 Home Screen
-
 <p align="center">
-  <img src="scree<img width="1080" height="2392" alt="Screenshot_20260528_125124" src="https://github.com/user-attachments/assets/2f2489b2-8e9a-42ad-82fb-96eec1e53f83" />
-nshots/home.jpg" width="300">
+  <img src="https://github.com/user-attachments/assets/2f2489b2-8e9a-42ad-82fb-96eec1e53f83" width="300">
+  &nbsp;&nbsp;&nbsp;
+  <img src="EDIT_NOTE_URL_YAHAN_PASTE_KARO" width="300">
 </p>
-
-## ✏️ Edit Note Screen
-
 <p align="center">
-  <img src="scre![Uploading Screenshot_20260528_125607.jpg…]()
-enshots/edit_note.jpg" width="300">
+  <b>🏠 Home Screen</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>✏️ Edit Note Screen</b>
 </p>
 
 ---
@@ -76,13 +71,13 @@ NexaNotes follows a clean and scalable Android app structure.
 
 ### Project Structure
 
-```bash
+````bash
 app/
  ├── ui/
  ├── data/
  ├── model/
  ├── utils/
-```
+\```
 
 ---
 
@@ -121,7 +116,7 @@ The app allows users to:
 
 ```bash
 git clone https://github.com/sahil-maske/Nova-Notes.git
-```
+\```
 
 ### 2. Open the project
 
@@ -185,11 +180,15 @@ This project is licensed under the MIT License.
 
 ### Sahil Maske
 
-GitHub:
-https://github.com/sahil-maske
+GitHub: https://github.com/sahil-maske
 
 ---
 
 # ⭐ Support
 
 If you like this project, consider giving it a star ⭐ on GitHub.
+```
+
+---
+
+Edit Note ka URL mil jaye toh `EDIT_NOTE_URL_YAHAN_PASTE_KARO` ki jagah replace kar do — done! 🔥
