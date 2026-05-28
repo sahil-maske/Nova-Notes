@@ -26,13 +26,15 @@ The app focuses on simplicity, smooth user experience, and fast performance whil
 ## 🏠 Home Screen
 
 <p align="center">
-  <img src="screenshots/home.jpg" width="300">
+  <img src="scree<img width="1080" height="2392" alt="Screenshot_20260528_125124" src="https://github.com/user-attachments/assets/2f2489b2-8e9a-42ad-82fb-96eec1e53f83" />
+nshots/home.jpg" width="300">
 </p>
 
 ## ✏️ Edit Note Screen
 
 <p align="center">
-  <img src="screenshots/edit_note.jpg" width="300">
+  <img src="scre![Uploading Screenshot_20260528_125607.jpg…]()
+enshots/edit_note.jpg" width="300">
 </p>
 
 ---
