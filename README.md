@@ -30,6 +30,7 @@ The app focuses on simplicity, smooth user experience, and fast performance whil
   <b>🏠 Home Screen</b>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <b>✏️ Edit Note Screen</b>
+  https://github.com/sahil-maske/Nova-Notes/issues/1#issue-4539578385
 </p>
 
 ---
