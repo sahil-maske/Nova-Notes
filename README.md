@@ -33,7 +33,7 @@ Example:
 
 | Home Screen | Note Editor |
 |-------------|-------------|
-| ![Home](screenshots/home.png) | ![Editor](screenshots/editor.png) |
+| ![Home](screenshots/Screenshot_20260528_125124.png) | ![Editor](screenshots/Screenshot_20260528_125607.png) |
 
 ---
 
