@@ -30,7 +30,7 @@ The app focuses on simplicity, smooth user experience, and fast performance whil
   <b>🏠 Home Screen</b>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <b>✏️ Edit Note Screen</b>
- [ https://private-user-images.githubusercontent.com/194052472/599393787-af98437a-ef1b-4a29-8032-9dd002b056d0.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk5NjM3ODIsIm5iZiI6MTc3OTk2MzQ4MiwicGF0aCI6Ii8xOTQwNTI0NzIvNTk5MzkzNzg3LWFmOTg0MzdhLWVmMWItNGEyOS04MDMyLTlkZDAwMmIwNTZkMC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUyOFQxMDE4MDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NWVjZmNhNjM4ZDZlNjBjOThjYTU0N2M1ZjFmN2YwNmU0OTI1NTY4YTA4YjQ2Yjk3MWYwNWVkMmFlNDQ3YzkwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.n4P3iczZh8m8XPGH4Z3rixGUJK7d--TN9Uq0iz82pRU](https://github.com/user-attachments/assets/af98437a-ef1b-4a29-8032-9dd002b056d0)
+https://github.com/user-attachments/assets/af98437a-ef1b-4a29-8032-9dd002b056d0
 </p>
 
 ---
