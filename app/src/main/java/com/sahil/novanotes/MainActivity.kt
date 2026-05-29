@@ -53,6 +53,9 @@ class MainActivity : ComponentActivity() {
                             },
                             onAddClick = {
                                 navController.navigate("edit/-1")
+                            },
+                            onDeleteNote = { note ->
+                                viewModel.deleteNote(note)
                             }
                         )
                     }
@@ -93,7 +96,8 @@ fun DefaultPreview() {
                 Note(id = 2, title = "Note 2", content = "Content 2")
             ),
             onNoteClick = {},
-            onAddClick = {}
+            onAddClick = {},
+            onDeleteNote = {}
         )
     }
 }

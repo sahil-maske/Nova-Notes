@@ -53,15 +53,7 @@ fun EditNoteScreen(
                     }
                 },
                 actions = {
-                    if (existingNote != null) {
-                        TextButton(onClick = { onDelete(existingNote) }) {
-                            Text(
-                                "Delete",
-                                color = MaterialTheme.colorScheme.error,
-                                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Medium)
-                            )
-                        }
-                    }
+
                     TextButton(onClick = {
                         val date = SimpleDateFormat("dd MMM yyyy", Locale.getDefault()).format(Date())
                         val note = Note(

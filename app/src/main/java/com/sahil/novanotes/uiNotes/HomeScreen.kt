@@ -1,5 +1,8 @@
 package com.sahil.novanotes.uiNotes
-
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.combinedClickable
+import androidx.compose.ui.Alignment
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -13,14 +16,20 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import com.sahil.novanotes.data.Note
+import com.airbnb.lottie.compose.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
+
     notes: List<Note>,
     onNoteClick: (Note) -> Unit,
-    onAddClick: () -> Unit
+    onAddClick: () -> Unit,
+    onDeleteNote: (Note) -> Unit
 ) {
+
+    var noteToDelete by remember { mutableStateOf<Note?>(null) }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -55,31 +64,99 @@ fun HomeScreen(
             }
         }
     ) { padding ->
-        LazyColumn(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(padding)
-                .padding(21.dp)
-        ) {
-            items(notes) { note ->
-                NoteCard(note = note, onClick = { onNoteClick(note) })
+        if (notes.isEmpty()) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .clickable { onAddClick() },
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center
+            ) {
+                val composition by rememberLottieComposition(
+                    LottieCompositionSpec.Asset("empty_notes.json")
+                )
+                val progress by animateLottieCompositionAsState(
+                    composition = composition,
+                    iterations = LottieConstants.IterateForever
+                )
+                LottieAnimation(
+                    composition = composition,
+                    progress = { progress },
+                    modifier = Modifier.size(250.dp)
+                )
+                Spacer(modifier = Modifier.height(16.dp))
+                Text(
+                    text = "No notes yet!",
+                    style = MaterialTheme.typography.titleMedium.copy(
+                        fontWeight = FontWeight.Bold
+                    )
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = "Tap + to create your first note",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        } else {
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .padding(18.dp)
+            ) {
+                items(notes) { note ->
+                    NoteCard(
+                        note = note,
+                        onClick = { onNoteClick(note) },
+                        onLongClick = { noteToDelete = note }
+                    )
+                }
+            }
+            noteToDelete?.let { note ->
+
+                // Alert Delete logic code
+
+                AlertDialog(
+                    modifier = Modifier.fillMaxWidth(0.95f),
+                    onDismissRequest = { noteToDelete = null },
+                    title = { Text("Delete Note") },
+                    text = { Text("Are you sure you want to delete this note?") },
+                    confirmButton = {
+                        TextButton(onClick = {
+                            onDeleteNote(note)
+                            noteToDelete = null
+                        }) { Text("Delete", color = MaterialTheme.colorScheme.error) }
+                    },
+                    dismissButton = {
+                        TextButton(onClick = { noteToDelete = null }) { Text("Cancel") }
+                    }
+                )
             }
         }
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
-fun NoteCard(note: Note, onClick: () -> Unit) {
+fun NoteCard(
+    note: Note,
+    onLongClick: () -> Unit = {},
+    onClick: () -> Unit
+) {
     Card(
-        onClick = onClick,
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 8.dp)
+            .combinedClickable(
+                onClick = onClick,
+                onLongClick = onLongClick
+            )
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(
-                text = if (note.title.isNotEmpty()) note.title else if (note.heading.isNotEmpty()) note.heading else "Untitled",
+                text = note.title.ifEmpty { note.heading.ifEmpty { "Untitled" } },
                 style = MaterialTheme.typography.titleMedium,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis
@@ -114,6 +191,7 @@ fun HomeScreenPreview() {
     HomeScreen(
         notes = sampleNotes,
         onNoteClick = {},
-        onAddClick = {}
+        onAddClick = {},
+        onDeleteNote = {}
     )
 }
